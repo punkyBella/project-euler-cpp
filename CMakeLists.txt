@@ -1,0 +1,28 @@
+cmake_minimum_required(VERSION 3.0)
+project(project_euler_cpp)
+
+set(CMAKE_CXX_STANDARD 11)
+
+add_executable(1 cpp/euler-001.cpp)
+add_executable(2 cpp/euler-002.cpp)
+add_executable(3 cpp/euler-003.cpp)
+add_executable(4 cpp/euler-004.cpp)
+add_executable(5 cpp/euler-005.cpp)
+add_executable(6 cpp/euler-006.cpp)
+add_executable(7 cpp/euler-007.cpp)
+add_executable(8 cpp/euler-008.cpp)
+add_executable(9 cpp/euler-009.cpp)
+add_executable(10 cpp/euler-010.cpp)
+add_executable(11 cpp/euler-011.cpp)
+add_executable(12 cpp/euler-012.cpp)
+add_executable(13 cpp/euler-013.cpp)
+add_executable(14 cpp/euler-014.cpp)
+add_executable(15 cpp/euler-015.cpp)
+add_executable(16 cpp/euler-016.cpp cpp/utils.hpp)
+add_executable(17 cpp/euler-017.cpp)
+add_executable(18 cpp/euler-018.cpp)
+add_executable(19 cpp/euler-019.cpp)
+add_executable(20 cpp/euler-020.cpp cpp/utils.hpp)
+
+add_executable(67 cpp/euler-067.cpp)
+
